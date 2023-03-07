@@ -1,6 +1,8 @@
 ---
 title: "Weather Notification Script Using OpenWeather API"
 date: 2023-03-04
+categories: blog
+tags: [python, smtp, ssl/tls]
 ---
 
 **Problem:** My apartment, like many others, has a snow removal policy which requires renters to move their cars from the parking lot after a snowfall or risk getting towed. **Solution:** I created a simple weather notification script using Python and [OpenWeather API](https://openweathermap.org/api).
