@@ -106,7 +106,7 @@ def send_email(subject, body, *to_address):
         print(f"Error: {e}")
 ```
 
-The Python SMTP library comes with two functions for creating a secure SMTP connection: `SMTP_SSL()` and `.starttls()`.
+The Python SMTP library comes with two methods for creating a secure SMTP connection: `SMTP_SSL()` and `.starttls()`.
 The decision to use `SMTP_SSL()` or `.starttls()` to secure your SMTP connection depends on your email server's configuration and your application's requirements. `SMTP_SSL()` creates a secure SSL/TLS-encrypted connection to your email server right from the start. On the other hand, `.starttls()` starts an unencrypted SMTP connection, then sends a STARTTLS command to initiate the TLS handshake and upgrade the connection to a secure TLS-encrypted connection.
 
 Some email servers may not support `SMTP_SSL()` and require the use of `.starttls()`. Furthermore, some email servers may require the use of specific encryption protocols or SSL certificates, which can be specified in the context parameter of the `.starttls()` method. Typically email servers will use SMTP port 465 for `SMTP_SSL()` and SMTP port 587 for `.starttls()`.
