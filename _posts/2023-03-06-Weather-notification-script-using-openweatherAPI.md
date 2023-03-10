@@ -115,6 +115,6 @@ In general, if your email server supports both `SMTP_SSL()` and `.starttls()`, a
 
 ## Conclusion
 
-Overall, this script provides a convenient way to stay informed about snow conditions and can be easily customized to suit different locations and weather thresholds. It can also be scheduled to run automatically using a task scheduler or a cron job, ensuring that the user is always up-to-date on the weather conditions. OpenWeather also has a new [solar radiation API](https://openweathermap.org/api/solar-radiation). 
+Overall, this script provides a convenient way to stay informed about snow conditions and can be easily customized to suit different locations and weather thresholds. It can also be scheduled to run automatically using a task scheduler or a cron job. OpenWeather also has a new [solar radiation API](https://openweathermap.org/api/solar-radiation). 
 
 
